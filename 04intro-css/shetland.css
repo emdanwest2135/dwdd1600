@@ -1,0 +1,134 @@
+body {
+font-family: 'Oswald', sans-serif;
+font-size: 16px;
+font-weight: 300;
+margin: 0;
+    background-color:#182625;
+    
+    
+}
+body h1 {
+    color:#F27B13;
+}
+
+/* Header Stuff Here*/
+header {
+    background-color:#28403D;
+    padding: 1rem 2vw;
+} 
+header h1 {
+    margin: 0;
+     color: #F27B13;
+}
+header h2 {
+    color:#F27B13;
+}
+header p {
+    margin: 0;
+     color: #689BA6;
+    letter-spacing: .5px
+        padding: 1remx 2vw;
+}
+
+/*nav stuff goes here*/
+nav ul {
+    background-color: #F27B13;
+   list-style-type: none;
+    padding: 0 2vw; 
+    margin: 0;
+    display: flex;
+}
+nav a{
+    font-size; 1.1rem;
+    text-decoration: none;
+    color: #284B59;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #024873;
+    color: #f2b705;
+}
+nav a:hover { 
+color: #F25757;
+}
+
+/* stuff for the main*/
+main { padding: 1rem 2vw;
+    
+}
+main a {
+    text-decoration: none;
+    color: #F27B13;
+}
+main h1 { 
+color: #F27B13;
+}
+
+main h2 { 
+color: #689ba6;
+    margin-bottom: .2rem;
+}
+main h3 a {
+    color:#F27B13;
+}
+
+main p { 
+color: #C2EDF2;/*light blue*/
+}
+main ol { 
+padding: .5rem 3vw;
+background-color: #014040; /*Changed Dark Green Blue*/
+}
+
+main dl dt {
+    color:#689BA6;
+    font-weight: 700;  
+}
+
+main dl dd {
+    color: #C2EDF2;
+    font-size: .9rem;
+}
+
+main ul{
+    list-style-type: circle;
+    
+}
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main li h3{
+    color:#689BA6;
+}
+main li { 
+    color: #C2EDF2;
+    padding: 0;
+    list-style-type: none;
+    
+}
+main address {
+    font-style: normal;
+    background-color: #f2b705;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #024873;
+    border-radius: .5rem;
+}
+  main a:hover {
+    color:#F25757;
+    }
+/*footer and stuff here*/
+footer {
+    background-color: #eaeaea;
+        text-align: center;
+    color: #689BA6;
+        padding: 1rem 0;
+    font-size: .8rem;
+} 
+footer a{
+    color: #F27B13;
+}
