@@ -3,36 +3,31 @@ font-family: 'Oswald', sans-serif;
 font-size: 16px;
 font-weight: 300;
 margin: 0;
-    background-color:#182625;  
-}
-body h1 {
-    color:#F27B13;
+    background-color:#002333;  
 }
 
 /* Header Stuff Here*/
 header {
-    background-color:#28403D;
+    background-color:#164773;
     padding: 1rem 2vw;
     
 } 
 header h1 {
     margin: 0;
-     color: #F27B13;
+     color: #DEEFE7;
 }
 header h2 {
-    color:#F27B13;
+    color:#DEEFE7;
 }
 header p {
     margin: 0;
      color: #C2EDF2;
-    letter-spacing: .5px;
-        padding: 1rem 2vw;
-    font-size: 400;
+    letter-spacing: .5px;   
 }
 
 /*nav stuff goes here*/
 nav ul {
-    background-color: #284B59;
+    background-color: #B4BEC9;
    list-style-type: none;
     padding: 0 2vw; 
     margin: 0;
@@ -41,10 +36,10 @@ nav ul {
 nav a {
     font-size: 1.1rem;
     text-decoration: none;
-    color: #C2EDF2;
+    color: #002333;
     font-weight:700;
     display:block;
-    padding:.83rem 2rem;
+    padding: 1rem 2rem;
 }
 nav li.active a {
     background-color: #024873;
@@ -60,15 +55,14 @@ main { padding: 1rem 2vw;
 }
 main a {
     text-decoration: none;
-    color: #F27244;
-    font-size: 400;
+    color: #159A9C;
 }
 main h1 { 
-color: #F27B13;
+color: #159A9C;
 }
 
 main h2 { 
-color: #689ba6;
+color: #159A9C;
     margin-bottom: .2rem;
 }
 main h3 a {
@@ -80,7 +74,7 @@ color: #C2EDF2;/*light blue*/
 }
 main ol { 
 padding: .5rem 3vw;
-background-color: #014040; /*Changed Dark Green Blue*/
+background-color: #164773; /*Changed Dark Green Blue*/
 }
 
 main dl dt {
@@ -108,28 +102,19 @@ main li h3{
 main li { 
     color: #C2EDF2;
     padding: 0;
-    list-style-type: none;
-    
-}
-main address {
-    font-style: normal;
-    background-color: #f2b705;
-    padding: .5rem;
-    width: 12.5rem;
-    border: 1px solid #024873;
-    border-radius: .5rem;
+    list-style-type: none;   
 }
   main a:hover {
     color:#F25757;
     }
 /*footer and stuff here*/
 footer {
-    background-color: #eaeaea;
+    background-color: #0B2B40;
         text-align: center;
-    color: #689BA6;
+    color: #ffffff;
         padding: 1rem 0;
     font-size: .8rem;
 } 
 footer a{
-    color: #F27B13;
+    color: #DEEFE7;
 }
